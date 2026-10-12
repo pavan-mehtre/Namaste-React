@@ -1,0 +1,35 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "source": "index.html",
+  "description": "Learning React from Zero to Hero",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/pavan-mehtre/Namaste-React#readme",
+  "bugs": {
+    "url": "https://github.com/pavan-mehtre/Namaste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavan-mehtre/Namaste-React.git"
+  },
+  "license": "ISC",
+  "author": "Pavan.Mehtre",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel -p 3000",
+    "build": "parcel build --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
